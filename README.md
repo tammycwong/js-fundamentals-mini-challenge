@@ -103,6 +103,7 @@ Enumerate through the array and *for each* user, print to the console their:
 
 Try to see if you can do this without using a `for` loop!
 
+```
 users = [
   { 
     name: "Duane",
