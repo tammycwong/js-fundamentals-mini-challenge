@@ -179,7 +179,7 @@ const line = []
 let ticketNumber = 0;
 
 function takeATicketNumber(line){
-  ticketNumber ++;
+  ticketNumber = ticketNumber + 1;
   line.push(ticketNumber);
   return `Welcome. You are ticket number ${line}`;
 }
